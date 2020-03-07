@@ -1,6 +1,5 @@
-
-# Created by https://www.gitignore.io/api/macos,swift,cocoapods
-# Edit at https://www.gitignore.io/?templates=macos,swift,cocoapods
+# Created by https://www.gitignore.io/api/xcode,macos,swift,cocoapods
+# Edit at https://www.gitignore.io/?templates=xcode,macos,swift,cocoapods
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
@@ -117,4 +116,24 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-# End of https://www.gitignore.io/api/macos,swift,cocoapods
+### Xcode ###
+# Xcode
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+### Xcode Patch ###
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.gitignore.io/api/xcode,macos,swift,cocoapods
